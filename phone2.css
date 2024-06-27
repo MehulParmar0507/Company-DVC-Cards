@@ -1,0 +1,15 @@
+#gallery .photos 
+{
+    flex-direction: column;
+    align-items: center;
+}
+#contact-container
+{
+    /* border:1px solid rgb(38, 0, 255); */
+    flex-wrap: wrap;
+}
+#gallery .photos img
+{
+    height:30%;
+    width: 80%;
+}

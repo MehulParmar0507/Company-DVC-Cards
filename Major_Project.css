@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+#Header
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#Header #Logo
+{
+    padding: 25px 0px;
+}
+
+#Header #companyName h1
+{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+#Header #subheading h3
+{
+    color: rgb(112, 112, 112);
+    font-size: 16px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+#Header #icons
+{
+    padding:20px 5px;
+}
+
+#Header #Logo img
+{
+    height: 100px;
+}
+
+#icons img
+{
+    height: 30px;
+}
+
+/* Feature Section */
+
+#features
+{
+    display: flex;
+    justify-content: center;
+}
+
+#features .Box
+{
+    margin: 10px 20px;
+    text-align: center;
+}
+
+#features .Box h3
+{
+    font-size: 25px;
+}
+
+#features .Box p
+{
+    font-size: 20px;
+    color: rgb(112, 112, 112);
+}
+
+/* Contact Section */
+
+#contact-container
+{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+#contact-container #download .btn
+{
+    padding:20px 20px;
+    font-size: 18px;
+    background-color: rgb(80, 188, 255);
+    color: white;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+#contact-container #download,#contact-container #contact
+{
+    margin:5px 15px;
+}
+
+#contact-container #contact
+{
+    display: flex;
+    align-items: center;
+}
+
+#contact-container #contact .btn2
+{
+    margin: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    border:none;
+    padding: 10px;
+}
+
+#contact-container .btn2 img
+{
+    height: 30px;
+}
+
+/* Gallery Section */
+
+#gallery
+{
+    padding-top: 30px;
+}
+#gallery .photos img
+{
+    height:250px;
+    width: 350px;
+    margin: 25px;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+
+#gallery .photos 
+{
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer Section */
+
+footer
+{
+   padding: 20px 0px; 
+}
+
+footer p
+{
+    text-align: center;
+    font-size: 18px;
+    color: rgb(112, 112, 112);
+}
+
