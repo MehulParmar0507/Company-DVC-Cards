@@ -122,20 +122,110 @@
 {
     padding-top: 30px;
 }
-#gallery .photos img
-{
-    height:250px;
-    width: 350px;
-    margin: 25px;
-    border-radius: 20px;
-    opacity: 0.9;
-}
 
 #gallery .photos 
 {
     display: flex;
     justify-content: center;
 }
+
+#gallery .photos .cards
+{
+    height:250px;
+    width: 350px;
+    margin: 25px;
+    border-radius: 20px;
+    opacity: 0.9;
+    background: linear-gradient(rgba(98, 98, 98, 0.2), rgba(0, 0, 0, 0.9));
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-family: "Ubuntu", sans-serif;
+    position: relative;
+    top:226px;
+    right:25px;
+    visibility: hidden;
+}
+
+#gallery .photos .outerCard
+{
+    border-radius: 20px;
+    height: 250px;
+    width: 350px;
+    background-size: 353px 254px;
+    padding: 0px;
+    margin:30px;
+    overflow: hidden;
+}
+
+#gallery .photos #outerCard-1
+{
+  background: url(images/pexels-vojtech-okenka-127162-392018.jpg) no-repeat center center/cover; 
+}
+
+#gallery .photos #outerCard-2
+{
+  background: url(images/pexels-tirachard-kumtanom-112571-733856.jpg) no-repeat center center/cover; 
+}
+
+#gallery .photos #outerCard-3
+{
+  background: url(images/pexels-pixabay-265087.jpg) no-repeat center center/cover; 
+}
+
+#gallery .photos #outerCard-4
+{
+  background: url(images/pexels-tima-miroshnichenko-5439153.jpg) no-repeat center center/cover; 
+}
+
+#gallery .photos #outerCard-1:hover>#card-1
+{
+    visibility:visible;
+    transform: translateY(-253px);
+   transform-origin: bottom;
+   transition: transform 0.3s ease-in-out;  
+}
+
+#gallery .photos #outerCard-2:hover>#card-2
+{
+    visibility:visible;
+    transform: translateY(-253px);
+   transform-origin: bottom;
+   transition: transform 0.3s ease-in-out;  
+}
+
+#gallery .photos #outerCard-3:hover>#card-3
+{
+    visibility:visible;
+    transform: translateY(-253px);
+   transform-origin: bottom;
+   transition: transform 0.3s ease-in-out;  
+}
+
+#gallery .photos #outerCard-4:hover>#card-4
+{
+    visibility:visible;
+    transform: translateY(-253px);
+   transform-origin: bottom;
+   transition: transform 0.3s ease-in-out;  
+}
+
+#gallery .photos .cards h3,#gallery .photos .cards a
+{
+   padding: 10px 20px;   
+} 
+
+#gallery .photos .cards a img
+{
+    height:30px;
+}
+
+#gallery .photos .cards h3
+{
+   font-size: 23px; 
+} 
+
 
 /* Footer Section */
 
